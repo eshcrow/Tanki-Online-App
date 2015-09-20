@@ -1,0 +1,2 @@
+if os_type==os_win32||os_type==os_windows
+{external_call(external_define("WindowStyler.dll","DialogWindow",dll_cdecl,ty_real,4,ty_real,ty_string,ty_real,ty_real),window_handle(),window_handle(),window_get_width(),window_get_height())}
